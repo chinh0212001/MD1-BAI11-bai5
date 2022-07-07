@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = [ 2,4,6,13,21]
+    let max = x[0]
+    let tong = 0
+
+    for (let i = 0 ; i<x.length; i++){
+        if(x[i]>=max){
+            max = x[i]
+        }
+        tong+=x[i];
+        console.log(tong);
+    }
+    document.write(max +'<br>')
+    document.write(tong/x.length)
+
+</script>
+</body>
+</html>
